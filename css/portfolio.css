@@ -583,92 +583,92 @@ img {
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .card-set__image.portfolio-card-001 {
-    content: url(../../images/portfolio-001-tablet.jpg);
+    content: url(../images/portfolio-001-tablet.jpg);
   }
 }
 @media screen and (min-width: 1200px) {
   .card-set__image.portfolio-card-001 {
-    content: url(../../images/portfolio-001-desktop.jpg);
+    content: url(../images/portfolio-001-desktop.jpg);
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .card-set__image.portfolio-card-002 {
-    content: url(../../images/portfolio-002-tablet.jpg);
+    content: url(../images/portfolio-002-tablet.jpg);
   }
 }
 @media screen and (min-width: 1200px) {
   .card-set__image.portfolio-card-002 {
-    content: url(../../images/portfolio-002-desktop.jpg);
+    content: url(../images/portfolio-002-desktop.jpg);
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .card-set__image.portfolio-card-003 {
-    content: url(../../images/portfolio-003-tablet.jpg);
+    content: url(../images/portfolio-003-tablet.jpg);
   }
 }
 @media screen and (min-width: 1200px) {
   .card-set__image.portfolio-card-003 {
-    content: url(../../images/portfolio-003-desktop.jpg);
+    content: url(../images/portfolio-003-desktop.jpg);
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .card-set__image.portfolio-card-004 {
-    content: url(../../images/portfolio-004-tablet.jpg);
+    content: url(../images/portfolio-004-tablet.jpg);
   }
 }
 @media screen and (min-width: 1200px) {
   .card-set__image.portfolio-card-004 {
-    content: url(../../images/portfolio-004-desktop.jpg);
+    content: url(../images/portfolio-004-desktop.jpg);
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .card-set__image.portfolio-card-005 {
-    content: url(../../images/portfolio-005-tablet.jpg);
+    content: url(../images/portfolio-005-tablet.jpg);
   }
 }
 @media screen and (min-width: 1200px) {
   .card-set__image.portfolio-card-005 {
-    content: url(../../images/portfolio-005-desktop.jpg);
+    content: url(../images/portfolio-005-desktop.jpg);
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .card-set__image.portfolio-card-006 {
-    content: url(../../images/portfolio-006-tablet.jpg);
+    content: url(../images/portfolio-006-tablet.jpg);
   }
 }
 @media screen and (min-width: 1200px) {
   .card-set__image.portfolio-card-006 {
-    content: url(../../images/portfolio-006-desktop.jpg);
+    content: url(../images/portfolio-006-desktop.jpg);
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .card-set__image.portfolio-card-007 {
-    content: url(../../images/portfolio-007-tablet.jpg);
+    content: url(../images/portfolio-007-tablet.jpg);
   }
 }
 @media screen and (min-width: 1200px) {
   .card-set__image.portfolio-card-007 {
-    content: url(../../images/portfolio-007-desktop.jpg);
+    content: url(../images/portfolio-007-desktop.jpg);
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .card-set__image.portfolio-card-008 {
-    content: url(../../images/portfolio-008-tablet.jpg);
+    content: url(../images/portfolio-008-tablet.jpg);
   }
 }
 @media screen and (min-width: 1200px) {
   .card-set__image.portfolio-card-008 {
-    content: url(../../images/portfolio-008-desktop.jpg);
+    content: url(../images/portfolio-008-desktop.jpg);
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .card-set__image.portfolio-card-009 {
-    content: url(../../images/portfolio-009-tablet.jpg);
+    content: url(../images/portfolio-009-tablet.jpg);
   }
 }
 @media screen and (min-width: 1200px) {
   .card-set__image.portfolio-card-009 {
-    content: url(../../images/portfolio-009-desktop.jpg);
+    content: url(../images/portfolio-009-desktop.jpg);
   }
 }
 

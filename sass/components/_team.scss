@@ -67,20 +67,20 @@
 
   &.team-1 {
     @media screen and (min-width: 768px) and (max-width: 1199px) {
-      content: url(../../images/team-1-tablet.jpg);
+      content: url(../images/team-1-tablet.jpg);
     }
 
     @media screen and (min-width: 1200px) {
-      content: url(../../images/team-1-desktop.jpg);
+      content: url(../images/team-1-desktop.jpg);
     }
   }
 
   &.team-2 {
     @media screen and (min-width: 768px) and (max-width: 1199px) {
-      content: url(../../images/team-2-tablet.jpg);
+      content: url(../images/team-2-tablet.jpg);
     }
     @media screen and (min-width: 1200px) {
-      content: url(../../images/team-2-desktop.jpg);
+      content: url(../images/team-2-desktop.jpg);
     }
   }
 
@@ -89,16 +89,16 @@
       content: url(../../images/team-3-tablet.jpg);
     }
     @media screen and (min-width: 1200px) {
-      content: url(../../images/team-3-desktop.jpg);
+      content: url(../images/team-3-desktop.jpg);
     }
   }
 
   &.team-4 {
     @media screen and (min-width: 768px) and (max-width: 1199px) {
-      content: url(../../images/team-4-tablet.jpg);
+      content: url(../images/team-4-tablet.jpg);
     }
     @media screen and (min-width: 1200px) {
-      content: url(../../images/team-4-desktop.jpg);
+      content: url(../images/team-4-desktop.jpg);
     }
   }
 }
