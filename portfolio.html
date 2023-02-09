@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="./css/portfolio.min.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="page-header">
+      <div class="header-container">
+        <nav class="site-nav">
+          <a href="./main.html" class="logo">
+            <span class="logo__accent">Web</span>Studio
+          </a>
+
+          <button
+            type="button"
+            class="menu-button menu-toggle js-open-menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+          >
+            <svg
+              class="menu-button__icon"
+              width="40"
+              height="40"
+              aria-label="Mobile menu switch"
+            >
+              <use
+                class="icon-cross"
+                href="./images/sprite.svg#cross-icon"
+              ></use>
+              <use class="icon-menu" href="./images/sprite.svg#menu-icon"></use>
+            </svg>
+          </button>
+          <div class="menu-container js-menu-container" id="mobile-menu">
+            <button class="menu-button-close menu-toggle js-close-menu">
+              <svg class="menu-icon" width="40" height="40">
+                <use
+                  class="icon-cross"
+                  href="./images/sprite.svg#cross-icon"
+                ></use>
+              </svg>
+            </button>
+            <ul class="nav-mobile list mobile-menu">
+              <li class="nav-mobile__item">
+                <a href="./main.html" class="nav-mobile__link link">Studio</a>
+              </li>
+              <li class="nav-mobile__item">
+                <a
+                  href="./portfolio.html"
+                  class="nav-mobile__link link active-page-mobile-menu"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="nav-mobile__item">
+                <a href="" class="nav-mobile__link link">Contacts</a>
+              </li>
+            </ul>
+            <ul class="auth-nav-mobile list">
+              <li class="auth-nav-mobile__item-phone">
+                <a
+                  class="auth-nav-mobile__link-phone link"
+                  href="tel:+38 096 111 11 11"
+                  >+38 096 111 11 11
+                </a>
+              </li>
+              <li class="auth-nav-mobile__item-email">
+                <a
+                  class="auth-nav-mobile__link-email link"
+                  href="mailto:info@devstudio.com"
+                >
+                  info@devstudio.com
+                </a>
+              </li>
+            </ul>
+            <ul class="menu-social-list list">
+              <li class="menu-social-item">
+                <a href="" class="menu-social-link link">Instagram</a>
+              </li>
+              <li class="menu-social-item">
+                <a href="" class="menu-social-link link">Twitter</a>
+              </li>
+              <li class="menu-social-item">
+                <a href="" class="menu-social-link link">Facebook</a>
+              </li>
+              <li class="menu-social-item">
+                <a href="" class="menu-social-link link">LinkedIn</a>
+              </li>
+            </ul>
+          </div>
+          <ul class="nav list">
+            <li class="nav_item">
+              <a href="./main.html" class="nav_link">Studio</a>
+            </li>
+            <li class="nav_item">
+              <a href="./portfolio.html" class="nav_link active-page"
+                >Portfolio</a
+              >
+            </li>
+            <li class="nav_item"><a href="" class="nav_link">Contacts</a></li>
+          </ul>
+          <ul class="contacts auth-nav list">
+            <li class="auth-nav__item">
+              <a class="auth-nav__link" href="mailto:info@devstudio.com">
+                <svg class="auth-nav__icon" width="16px" height="16px">
+                  <use href="./images/sprite.svg#mail-icon"></use></svg
+                >info@devstudio.com
+              </a>
+            </li>
+            <li class="auth-nav__item">
+              <a class="auth-nav__link" href="tel:+38 096 111 11 11"
+                ><svg class="auth-nav__icon" width="16px" height="16px">
+                  <use href="./images/sprite.svg#smartphone-icon"></use></svg
+                >+38 096 111 11 11</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="portfolio section">
+        <div class="container">
+          <!-- <h1 class="portfolio-title">Portfolio</h1> -->
+          <ul class="portfolio__filters portfolio-filters list">
+            <li class="portfolio__filter-item">
+              <button type="button" class="portfolio__filter-button">
+                All
+              </button>
+            </li>
+            <li class="portfolio__filter-item">
+              <button type="button" class="portfolio__filter-button">
+                Web sites
+              </button>
+            </li>
+            <li class="portfolio__filter-item">
+              <button type="button" class="portfolio__filter-button">
+                Applications
+              </button>
+            </li>
+            <li class="portfolio__filter-item">
+              <button type="button" class="portfolio__filter-button">
+                Design
+              </button>
+            </li>
+            <li class="portfolio__filter-item">
+              <button type="button" class="portfolio__filter-button">
+                Marketing
+              </button>
+            </li>
+          </ul>
+
+          <ul class="card-set portfolio-cards list">
+            <li class="card-set__item">
+              <a href="" class="card-set__link link">
+                <div class="card-set__image-wrap">
+                  <img
+                    class="card-set__image portfolio-card-001"
+                    src="./images/portfolio-001-mobile.jpg"
+                    alt="Techno"
+                  />
+                  <p class="card-set__text">
+                    The resource offers comprehensive offers with different
+                    levels of functionality and services. All this will allow
+                    the visitor to obtain comprehensive information about the
+                    company or individual.
+                  </p>
+                </div>
+                <h2 class="card-set__title">Techno</h2>
+                <p class="card-set__filter-tag">Web site</p>
+              </a>
+            </li>
+
+            <li class="card-set__item">
+              <a href="" class="card-set__link link">
+                <div class="card-set__image-wrap">
+                  <img
+                    class="card-set__image portfolio-card-002"
+                    src="./images/portfolio-002-mobile.jpg"
+                    alt="New Orlean vs Golden Star poster"
+                  />
+                  <p class="card-set__text">
+                    The resource offers comprehensive offers with different
+                    levels of functionality and services. All this will allow
+                    the visitor to obtain comprehensive information about the
+                    company or individual.
+                  </p>
+                </div>
+                <h2 class="card-set__title">
+                  New Orlean vs Golden Star poster
+                </h2>
+                <p class="card-set__filter-tag">Design</p>
+              </a>
+            </li>
+
+            <li class="card-set__item">
+              <a href="" class="card-set__link link">
+                <div class="card-set__image-wrap">
+                  <img
+                    class="card-set__image portfolio-card-003"
+                    src="./images/portfolio-003-mobile.jpg"
+                    alt="Seafood Restaurant"
+                  />
+                  <p class="card-set__text">
+                    The resource offers comprehensive offers with different
+                    levels of functionality and services. All this will allow
+                    the visitor to obtain comprehensive information about the
+                    company or individual.
+                  </p>
+                </div>
+                <h2 class="card-set__title">Seafood Restaurant</h2>
+                <p class="card-set__filter-tag">Application</p>
+              </a>
+            </li>
+
+            <li class="card-set__item">
+              <a href="" class="card-set__link link">
+                <div class="card-set__image-wrap">
+                  <img
+                    class="card-set__image portfolio-card-004"
+                    src="./images/portfolio-004-mobile.jpg"
+                    alt="Prime project"
+                  />
+                  <p class="card-set__text">
+                    The resource offers comprehensive offers with different
+                    levels of functionality and services. All this will allow
+                    the visitor to obtain comprehensive information about the
+                    company or individual..
+                  </p>
+                </div>
+                <h2 class="card-set__title">Prime project</h2>
+                <p class="card-set__filter-tag">Marketing</p>
+              </a>
+            </li>
+
+            <li class="card-set__item">
+              <a href="" class="card-set__link link">
+                <div class="card-set__image-wrap">
+                  <img
+                    class="card-set__image portfolio-card-005"
+                    src="./images/portfolio-005-mobile.jpg"
+                    alt="Project Boxes"
+                  />
+                  <p class="card-set__text">
+                    The resource offers comprehensive offers with different
+                    levels of functionality and services. All this will allow
+                    the visitor to obtain comprehensive information about the
+                    company or individual.
+                  </p>
+                </div>
+                <h2 class="card-set__title">Project Boxes</h2>
+                <p class="card-set__filter-tag">Application</p>
+              </a>
+            </li>
+
+            <li class="card-set__item">
+              <a href="" class="card-set__link link">
+                <div class="card-set__image-wrap">
+                  <img
+                    class="card-set__image portfolio-card-006"
+                    src="./images/portfolio-006-mobile.jpg"
+                    alt="Inspiration has no Borders"
+                  />
+                  <p class="card-set__text">
+                    The resource offers comprehensive offers with different
+                    levels of functionality and services. All this will allow
+                    the visitor to obtain comprehensive information about the
+                    company or individual.
+                  </p>
+                </div>
+                <h2 class="card-set__title">Inspiration has no Borders</h2>
+                <p class="card-set__filter-tag">Web site</p>
+              </a>
+            </li>
+
+            <li class="card-set__item">
+              <a href="" class="card-set__link link">
+                <div class="card-set__image-wrap">
+                  <img
+                    class="card-set__image portfolio-card-007"
+                    src="./images/portfolio-007-mobile.jpg"
+                    alt="Limited Edition"
+                  />
+                  <p class="card-set__text">
+                    The resource offers comprehensive offers with different
+                    levels of functionality and services. All this will allow
+                    the visitor to obtain comprehensive information about the
+                    company or individual.
+                  </p>
+                </div>
+                <h2 class="card-set__title">Limited edition</h2>
+                <p class="card-set__filter-tag">Design</p>
+              </a>
+            </li>
+
+            <li class="card-set__item">
+              <a href="" class="card-set__link link">
+                <div class="card-set__image-wrap">
+                  <img
+                    class="card-set__image portfolio-card-008"
+                    src="./images/portfolio-008-mobile.jpg"
+                    alt="LAB project"
+                  />
+                  <p class="card-set__text">
+                    The resource offers comprehensive offers with different
+                    levels of functionality and services. All this will allow
+                    the visitor to obtain comprehensive information about the
+                    company or individual.
+                  </p>
+                </div>
+                <h2 class="card-set__title">LAB project</h2>
+                <p class="card-set__filter-tag">Marketing</p>
+              </a>
+            </li>
+
+            <li class="card-set__item">
+              <a href="" class="card-set__link link">
+                <div class="card-set__image-wrap">
+                  <img
+                    class="card-set__image portfolio-card-009"
+                    src="./images/portfolio-009-mobile.jpg"
+                    alt="Growing Business"
+                  />
+                  <p class="card-set__text">
+                    The resource offers comprehensive offers with different
+                    levels of functionality and services. All this will allow
+                    the visitor to obtain comprehensive information about the
+                    company or individual.
+                  </p>
+                </div>
+                <h2 class="card-set__title">Growing Business</h2>
+                <p class="card-set__filter-tag">Application</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <!-- Футер -->
+    <footer class="footer">
+      <div class="container">
+        <div class="contacts">
+          <p class="logo"><span class="logo__accent">Web</span>Studio</p>
+          <address class="address">
+            <p class="address__location">Kiyv, Lesya Ukrainka avenue, 26</p>
+            <ul class="address__list list">
+              <li class="address__item">
+                <a href="mailto:info@example.com" class="address__link"
+                  >info@example.com</a
+                >
+              </li>
+              <li class="address__item">
+                <a href="tel:+38 099 111 11 11" class="address__link"
+                  >+38 099 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="social">
+          <p class="social__title">Join us</p>
+          <ul class="social__list list">
+            <li class="social__item link">
+              <a class="social__link" href="">
+                <svg class="social__icon" width="20" height="20">
+                  <use href="./images/sprite.svg#instagram-icon"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item link">
+              <a class="social__link" href="">
+                <svg class="social__icon" width="20" height="20">
+                  <use href="./images/sprite.svg#twitter-icon"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item link">
+              <a class="social__link" href="">
+                <svg class="social__icon" width="20" height="20">
+                  <use href="./images/sprite.svg#facebook-icon"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item link">
+              <a class="social__link" href="">
+                <svg class="social__icon" width="20" height="20">
+                  <use href="./images/sprite.svg#linkedin-icon"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="subscribe">
+          <label for="email-subscribe" class="subscribe__title"
+            >Subscribe to newsletter</label
+          >
+          <div class="subscribe__wrap">
+            <input
+              type="email"
+              class="subscribe__input"
+              name="email-subscribe"
+              id="email-subscribe"
+              placeholder="E-mail"
+            />
+            <button class="subscribe__button">
+              Subscribe
+              <svg class="subscribe__icon" width="24" height="24">
+                <use href="./images/sprite.svg#icon-subscribe"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
+    <script src="./js/mobile-menu.js"></script>
+  </body>
+</html>
